@@ -1,0 +1,25 @@
+{
+  "name": "api-poke-clima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "clima": "node services/clima.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-sapatera/CONSUMINDO-API-POKE-CLIMA.git"
+  },
+  "author": "Paulo Sapatera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulo-sapatera/CONSUMINDO-API-POKE-CLIMA/issues"
+  },
+  "homepage": "https://github.com/paulo-sapatera/CONSUMINDO-API-POKE-CLIMA#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2"
+  }
+}
